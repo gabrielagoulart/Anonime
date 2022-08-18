@@ -1,57 +1,27 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
-
-    /*background-color: #192026;*/
 }
 
-header {
-    display: flex;
-    align-items: center;
-}
-
-
-/*--------BANNER-----------*/
-
-/*
-section#container-banner {
+div#image-banner {
     width: 1170px;
     height: 400px;
-    position: relative;
+
+    box-shadow: inset 474px 0px 98px rgb(0 0 0 / 43%);
+    background-image: url(spy_carousel\ 1.png);
+}
+
+div#text-banner {
+    
     color: white;
 
-}
-
-section#container img {
-    width: 100%;
-}
-
-div#banner {
-    color: black;
-}
-
-div.banner-text {
-    width: 582px;
+    padding-top: 270px;
+    padding-right: 537px;
     padding-left: 47px;
-    padding-top: 200px;
-    padding-right: 53px;
-    padding-bottom: 33px;
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
-div.banner-text h3 {
+div#text-banner h3 {
     padding-bottom: 16px;
-    font-size: 32px;
-} 
-*/
-
-div#banner {
-    background-image: url(spy_carousel\ 1.png);
-    background-color: crimson;
+    font-size: 36px;
 }
