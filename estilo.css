@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ div#image-banner {
     width: 1170px;
     height: 400px;
 
+    border-radius: 16px;
     box-shadow: inset 474px 0px 98px rgb(0 0 0 / 43%);
     background-image: url(spy_carousel\ 1.png);
 }
@@ -16,12 +19,41 @@ div#text-banner {
     
     color: white;
 
-    padding-top: 270px;
+    padding-top: 230px;
     padding-right: 537px;
     padding-left: 47px;
 }
 
 div#text-banner h3 {
+    font-family: 'Poppins', sans-serif;
+
     padding-bottom: 16px;
     font-size: 36px;
+}
+
+div#text-banner p {
+    max-width: 470px;
+}
+
+/*-----episode-----*/
+section#container-cards {
+    display: flex;
+    gap: 1rem;
+
+}
+
+div.image-ep {
+    width: 155px;
+    height: 215px;
+    border-radius: 12px;
+    box-shadow: inset 10px 1000px 10px rgb(0 0 0 / 43%); /*fazer com que a sombra fique somente em baixo*/
+
+    background-image: url(One-piece\ 1.png);
+}
+
+div.image-ep p {
+    color: white;
+
+    text-align: center;
+    padding-top: 220px;
 }
