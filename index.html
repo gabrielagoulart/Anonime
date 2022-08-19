@@ -11,15 +11,19 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <h1>Anonime</h1>
+    <header>     
+        
+        <div id="header-menu">
 
-        <a href="#">Home</a>
-        <a href="#">List anime</a>
+            <h1>Anonime</h1>
+            <div id="menu-links">
+                <a href="#">Home</a>
+                <a href="#">List anime</a>
+            </div>
 
-        <button>
-            Search anime or movie
-        </button>
+            <a id="search" href="#">Search anime or movie</a>
+        </div>
+
     </header>
     
     <main>
@@ -39,9 +43,11 @@
 
         </section>
 
+
+        <section id="container-cards">
         <h2>New Realease</h2>
         
-        <section id="container-cards">
+        <div id="cards-flex">
 
             <div id="cards">
                 <div class="image-ep">
@@ -91,7 +97,8 @@
                 </div>
                 <p>One Piece</p>
             </div>
-        </section>
+        </div>
+    </section>
     </main>
 
 </body>

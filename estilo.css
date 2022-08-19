@@ -4,7 +4,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    text-decoration: none;
 }
+
+body {
+    background-color: #192026;
+}
+
+h1, h2, h3, p, a{
+    color: white;
+} 
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header a#search {
+    background-color: #2f303b;
+    text-align: center;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 80px;
+    border-radius: 37px;
+    
+}
+
+section#container-banner p {
+    padding-bottom: 17px;
+}
+
+div#header-menu {
+    display: flex;
+    justify-content: center;
+
+    gap: 400px;
+} 
 
 div#image-banner {
     width: 1170px;
@@ -36,7 +81,12 @@ div#text-banner p {
 }
 
 /*-----episode-----*/
-section#container-cards {
+section#container-cards h2 {
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+div#cards-flex {
     display: flex;
     gap: 1rem;
 
@@ -54,6 +104,7 @@ div.image-ep {
 div.image-ep p {
     color: white;
 
+
     text-align: center;
-    padding-top: 220px;
+    padding-top: 190px;
 }
