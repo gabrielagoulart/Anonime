@@ -12,6 +12,8 @@ body {
     background-color: #192026;
     color: white;
 
+    width: 1140px;
+    margin: auto;
 
 }
 
@@ -19,4 +21,21 @@ body {
 
 div#header {
     display: flex;
+}
+
+
+
+/*=====MAIN*======*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    width: 370px;
+    height: 809px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
 }
