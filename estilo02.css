@@ -19,11 +19,25 @@ body {
 
 /*======HEADER======*/
 
+header {
+    width: 1274px;
+    height: 48px;
+}
+
+header#header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
 div#header {
     display: flex;
 }
 
-
+div#player iframe {
+    border-radius: 10px;
+}
 
 /*=====MAIN*======*/
 main {
@@ -39,3 +53,20 @@ aside {
     top: 0;
     right: 0;
 }
+
+
+div#infos-ep {
+    display: flex;
+    gap: 20px;
+
+    padding-top: 40px;
+}
+
+div#infos-ep ul {
+    padding-left: 20px;
+}
+
+div#infos-ep ul li, h3, p{
+    padding-bottom: 5px;
+}
+
