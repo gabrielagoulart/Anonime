@@ -17,6 +17,10 @@ body {
 
 }
 
+body p, a {
+    color: #858585;
+}
+
 /*======HEADER======*/
 
 header {
@@ -52,6 +56,13 @@ aside {
     position: absolute;
     top: 0;
     right: 0;
+
+    padding-top: 57px;
+}
+
+aside img {
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 
@@ -66,7 +77,23 @@ div#infos-ep ul {
     padding-left: 20px;
 }
 
-div#infos-ep ul li, h3, p{
-    padding-bottom: 5px;
+div#infos-ep ul li h3{
+    padding-bottom: 10px;
+    padding-top: 25px;
 }
+
+div#infos-ep p {
+    padding-bottom: 10px;  
+}
+
+div#sypnosis {
+    width: 813px;
+    height: 174px;
+}
+
+div#sypnosis h3 {
+    padding-top: 27px;
+}
+
+
 
