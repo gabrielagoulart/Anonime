@@ -22,22 +22,30 @@ body p, a {
 }
 
 /*======HEADER======*/
-
 header {
-    width: 1274px;
-    height: 48px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
-header#header-flex {
+.header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 32px;
 }
 
-div#header {
+.menu-header {
     display: flex;
 }
+
+.menu-header li {
+    margin-left: 10px;
+}
+
+.menu-header li a {
+    display: block;
+    padding: 10px;
+}
+
 
 div#player iframe {
     border-radius: 10px;
