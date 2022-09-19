@@ -33,6 +33,16 @@ header {
     align-items: center;
 }
 
+header #search {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-left: 400px;
+    background-color:hsla(217, 19%, 27%, 1);
+    width: 374.58px;
+    height: 48px;
+    border-radius: 37px;
+}
+
 .menu-header {
     display: flex;
 }
