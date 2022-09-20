@@ -75,7 +75,11 @@ aside {
     top: 0;
     right: 180px;
 
-    padding-top: 57px;
+    padding-top: 81px;
+}
+
+aside h2 {
+    padding-bottom: 25px;
 }
 
 aside img {
@@ -89,6 +93,10 @@ div#infos-ep {
     gap: 20px;
 
     padding-top: 40px;
+}
+
+div#player h2 {
+    padding-bottom: 25px;
 }
 
 div#infos-ep ul {
