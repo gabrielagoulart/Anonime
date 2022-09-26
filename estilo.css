@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     background-color: #192026;
 
@@ -17,33 +21,21 @@ body {
     
 }
 
-h1, h2, h3, p, a {
+body p, a {
+    color: #858585;
+}
+
+h1, h2 {
     color: white;
-    
-} 
+}
+
+section div#text-banner p, 
+p.name-anime {
+    color: white;
+}
 
 h2 {
     font-family: 'Poppins', sans-serif;
-}
-
-header {
-    padding-bottom: 20px;
-}
-
-header h1 {
-    font-family: 'Poppins', sans-serif;
-}
-
-header a#search {
-    background-color: #2f303b;
-    text-align: center;
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 80px;
-    border-radius: 37px;
-    
 }
 
 section#container-banner p {
@@ -64,6 +56,38 @@ div#image-banner {
     border-radius: 16px;
     box-shadow: inset 474px 0px 98px rgb(0 0 0 / 43%);
     background-image: url(spy_carousel\ 1.png);
+}header {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #search {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-left: 400px;
+    background-color:hsla(217, 19%, 27%, 1);
+    width: 300px;
+    height: 48px;
+    border-radius: 37px;
+}
+
+.menu-header {
+    display: flex;
+}
+
+.menu-header li {
+    margin-left: 10px;
+}
+
+.menu-header li a {
+    display: block;
+    padding: 10px;
 }
 
 div#text-banner {
